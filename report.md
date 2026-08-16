@@ -5,9 +5,12 @@
 
 - Mussie Shifera Assefa
 
+
+
 **Step 1**
 
 Visualization design using drawio
+![Visual diagram](/images/simulated_lab_diagram.drawio.svg)
 
 **Step 2**
 
@@ -34,9 +37,11 @@ Setup SOAR and integrate everything together (wasa, hive and shuffle)
 
 - Send email and responsive action to be decided by (SOC analyst)
 
+
 ## Shuffle [SOAR (Security Orchestration, Automation, and Response) capabilities]
 
 - Receive wazuh alerts & send responsive actions
+
 
 ## Refference
 
