@@ -14,7 +14,26 @@ Visualization design using drawio
 
 **Step 2**
 
-Component setup (cloud or on prem)
+Component setup (on prem)
+
+
+
+What is sysmon?
+
+System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time.
+
+Downloading sysmon for windows 10 and download the configuration from *[here](https://github.com/opafhartong/sysmon-modular/blob/master/sysmonconfig.xml)*.
+
+After downloading both the files. Extract the sysmon compressed folder and make sure the config file is inside the extracted folder. open a powershell as administrator and change the current working directory to extracted folder and run the Sysmon64.exe bit executable file simple because the processor is 64-bit architecture. 
+
+![sysmon](/images/sysmon_files.png)
+
+use the 'i' option to install configuration files.
+
+![sysmon_install](/images/sysmon_installation.png)
+
+
+
 
 **Step 3**
 
